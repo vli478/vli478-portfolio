@@ -1,0 +1,268 @@
+.home-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-container2 {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: var(--dl-size-size-xlarge);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(to right, #c02425 0%, #f0cb35 100%);
+}
+.home-text10 {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  padding-top: var(--dl-space-space-threeunits);
+  text-transform: uppercase;
+}
+.home-text11 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.home-text14 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-twounits);
+}
+.home-link1 {
+  text-decoration: underline;
+}
+.home-container3 {
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.home-container4 {
+  display: contents;
+}
+.home-container5 {
+  flex: initial;
+  width: 100%;
+  height: 555px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #000000;
+}
+.home-navlink1 {
+  display: contents;
+}
+.home-container6 {
+  flex: 1;
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  opacity: 0.5;
+  transition: 0.3s;
+  align-items: center;
+  border-radius: 0px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  text-decoration: none;
+  background-image: url('https://ultraorange123.wordpress.com/wp-content/uploads/2024/09/for-webbie.gif');
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.home-container6:hover {
+  opacity: 1;
+  border-color: #ffffff;
+  border-width: 10px;
+}
+.home-text20 {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+}
+.home-navlink2 {
+  display: contents;
+}
+.home-container7 {
+  flex: 1;
+  width: 33.4%;
+  height: 100%;
+  display: flex;
+  opacity: 0.5;
+  transition: 0.3s;
+  align-items: center;
+  border-radius: 0px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  text-decoration: none;
+  background-image: url('https://ultraorange123.wordpress.com/wp-content/uploads/2024/09/hof-1.gif');
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.home-container7:hover {
+  opacity: 1;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 10px;
+}
+.home-text21 {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 900;
+}
+.home-navlink3 {
+  display: contents;
+}
+.home-container8 {
+  flex: 1;
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  opacity: 0.5;
+  transition: 0.3s;
+  align-items: center;
+  border-radius: 0px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  text-decoration: none;
+  background-image: url('https://ultraorange123.wordpress.com/wp-content/uploads/2023/06/recovered-file2-final-1.gif');
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.home-container8:hover {
+  opacity: 1;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 10px;
+}
+.home-text22 {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 900;
+}
+.home-container9 {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  min-height: var(--dl-size-size-xlarge);
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(circle at center, rgb(15, 0, 40) 1.00%,rgb(35, 61, 89) 99.00%);
+}
+.home-text23 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-threeunits);
+  text-align: center;
+}
+.home-text24 {
+  font-style: normal;
+  font-weight: 900;
+}
+.home-text25 {
+  font-style: normal;
+  font-weight: 900;
+}
+.home-link2 {
+  text-decoration: underline;
+}
+@media(max-width: 1920px) {
+  .home-text14 {
+    text-align: center;
+  }
+  .home-container5 {
+    height: 549px;
+  }
+  .home-container6 {
+    width: 33.3%;
+    justify-content: center;
+  }
+  .home-text20 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+  }
+  .home-container7 {
+    width: 33.4%;
+    justify-content: center;
+  }
+  .home-text21 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 900;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 1px;
+  }
+  .home-container8 {
+    width: 33.3%;
+    justify-content: center;
+    background-image: url('https://ultraorange123.wordpress.com/wp-content/uploads/2023/06/recovered-file2-final-1.gif');
+  }
+  .home-text22 {
+    color: #ffffff;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+  }
+}
+@media(max-width: 1200px) {
+  .home-container5 {
+    height: 522px;
+  }
+  .home-text21 {
+    text-align: center;
+  }
+  .home-text22 {
+    color: #ffffff;
+  }
+}
+@media(max-width: 991px) {
+  .home-container5 {
+    height: 530px;
+  }
+  .home-text21 {
+    font-size: 50px;
+  }
+  .home-text22 {
+    font-size: 50px;
+  }
+}
+@media(max-width: 767px) {
+  .home-text21 {
+    font-size: 40px;
+  }
+  .home-text22 {
+    width: auto;
+    height: auto;
+    font-size: 40px;
+  }
+}
+@media(max-width: 479px) {
+  .home-text20 {
+    font-size: 30px;
+  }
+  .home-text21 {
+    font-size: 25px;
+  }
+  .home-text22 {
+    font-size: 25px;
+  }
+}
